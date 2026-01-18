@@ -1,8 +1,9 @@
 {
-  "name": "</>-kr0m3d1a:-tier-1-solutions",
+  "name": "kr0m3d1a-tier-1-solutions",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "packageId": "com.krom3d1a.tierone",
+  "shortName": "kr0m3d1a",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,14 +12,12 @@
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "@google/genai": "^1.28.0",
     "lucide-react": "^0.554.0",
+    "@google/genai": "^1.28.0",
     "date-fns": "^4.1.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "vite": "^6.0.0",
+    "@vitejs/plugin-react": "^4.3.0"
   }
 }
