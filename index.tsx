@@ -5,7 +5,7 @@ import { ErrorBoundary } from './components/ErrorBoundary';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
-  throw new Error("Could not find root element to mount to");
+  throw new Error("CRITICAL_FAILURE: DOM root element missing. System halted.");
 }
 
 const root = ReactDOM.createRoot(rootElement);
